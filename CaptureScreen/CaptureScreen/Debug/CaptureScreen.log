@@ -1,0 +1,19 @@
+﻿生成启动时间为 2018/8/25 17:58:10。
+     1>项目“D:\Learning Resource\MFC\VIPStudy\CaptureScreen\CaptureScreen\CaptureScreen.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\SoftWare\VS2013\System\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\CaptureScreen.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt CaptureScreen.cpp
+         CaptureScreen.cpp
+     1>d:\learning resource\mfc\vipstudy\capturescreen\capturescreen\capturescreen.cpp(3): warning C4627: “#include "easyx.h"”:  在查找预编译头使用时跳过
+                 将指令添加到“stdafx.h”或重新生成预编译头
+     1>d:\learning resource\mfc\vipstudy\capturescreen\capturescreen\capturescreen.cpp(4): warning C4627: “#include "graphics.h"”:  在查找预编译头使用时跳过
+                 将指令添加到“stdafx.h”或重新生成预编译头
+       Link:
+         D:\SoftWare\VS2013\System\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Learning Resource\MFC\VIPStudy\CaptureScreen\Debug\CaptureScreen.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Learning Resource\MFC\VIPStudy\CaptureScreen\Debug\CaptureScreen.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Learning Resource\MFC\VIPStudy\CaptureScreen\Debug\CaptureScreen.lib" /MACHINE:X86 Debug\CaptureScreen.res
+         Debug\CaptureScreen.obj
+         Debug\stdafx.obj
+         CaptureScreen.vcxproj -> D:\Learning Resource\MFC\VIPStudy\CaptureScreen\Debug\CaptureScreen.exe
+     1>已完成生成项目“D:\Learning Resource\MFC\VIPStudy\CaptureScreen\CaptureScreen\CaptureScreen.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.02
