@@ -1,0 +1,13 @@
+打开shadowsocks的指令：sslocal -c /etc/shadowsocks.json
+如果配置的话，直接vim.json文件即可。
+sudo dpkg-reconfigure postfix  重新配置软件参数
+
+1.如何写一般的邮件： mail test@126.com  Cc 编辑抄送对象，Subject:邮件主题,输入回车，邮件正文后，按Ctrl-D结束
+2.快速发送方式： echo “邮件正文” | mail -s 邮件主题 test@126.com
+3.以文件内容作为邮件正文来发送： mail -s test test@126.com < test.txt
+4.发送带附件的邮件： uuencode 附件名称 附件显示名称 | mail -s 邮件主题 发送地址
+
+systemctl   stop sendmail   停止服务
+systemctl   start sendmail  开始服务
+service sendmail restart    重启
+
